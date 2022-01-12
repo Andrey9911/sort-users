@@ -128,7 +128,7 @@ document.querySelector('#sub_user').addEventListener('click', (e) => {
                         if(fullCard.style.display == ''){ 
                             opasity(fullCard)
                             fullCard.style.display = 'block'
-                            console.log(e)
+                            console.log(e);
                             document.querySelector('#full_card_img').setAttribute('src',e.target.childNodes[1].src)
 
                             document.querySelector('#full_card_name').innerHTML = users[i].name
