@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="block">
+        <header>
+            <div id="newUser">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" id="form" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                    <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+                </svg>
+                <div id="blockNewUser">
+                    <h2>New Person</h2>
+                    <form action="" enctype="multipart/form-data">
+
+                        <div class="img f">
+                            <p>Add photo</p>
+                            
+                            <input type="file" id="edit_photo" accept="image/*,image/jpeg">
+                        </div>
+
+                        <div id="n_f">
+                            <div class="name">
+                                <p>Name</p>
+                                <input type="text" id="name" maxlength="10">
+                            </div>
+                            <div class="fname">
+                                <p>Familia</p>
+                                <input type="text" id="fname" maxlength="10">
+                            </div>
+                        </div>
+
+                        <div class="age f">
+                            <p>Age</p>
+                            <input type="number" id="ageInp">
+                        </div>
+
+                        <div class="email f">
+                            <p>Email</p>
+                            <input type="email" name="" id="email">
+                        </div>
+                        <div id="warning"></div>
+                        <div id="sub_user" type="submit" value="add" >Add</div>>
+                    </form>
+                </div>
+            </div>
+            <form action="" class="s">
+                <input type="search" id="search" placeholder="Search... ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" id="search_ico" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </form>
+            
+        </header>
+        <main>
+            <div id="warning2"></div>
+            <div id="cards">
+                
+            </div>
+        </main>
+        <div id="fullCard">
+            <div id="card_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="close bi bi-x-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/></svg>
+                <img src="" id="full_card_img" class="w img_card">
+                <div id="n_a">
+                    <div id="full_card_name" class="w"></div>
+                    <div id="p"> · </div>
+                    <div id="full_card_age" class="w"></div>
+                </div>
+            </div>
+            <div id="card_main">
+                <table>
+                    <tr>
+                        <td class="td1">Фамилия</td>
+                        <td id="full_card_fname" class="w td2"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Email</td>
+                        <td id="full_card_email" class="w td2"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Статус</td>
+                        <td id="full_card_status" class="w td2"></td>
+                    </tr>
+                </table>
+                <!-- <div id="full_card_fname" class="w"></div>
+                <div id="full_card_email" c•lass="w"></div>
+                <div id="full_card_status" class="w"></div> -->
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

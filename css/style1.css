@@ -1,0 +1,184 @@
+h2,p{
+    margin: auto;
+}
+body{
+    background-color: #1E1E2E;
+    font-family: sans-serif;
+}
+#block{
+    color: white;
+    width: 40%;
+    background-color: #625B7C;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+#form:hover{
+    cursor: pointer;
+    transform: translateY(2px);
+    transition: 0.3s ease-out;
+    color: rgb(209, 209, 209);
+}
+#search{
+    background-color: #4e4e72;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px 0px 30%;
+    padding: 7px 15px;
+    font-size: 17px;
+}
+.s{width: 66%;margin-left: 30%;}
+.s,
+#n_f,
+header,
+#cards,
+.ageText,
+#card_header,
+#n_a{
+    display: flex;
+    align-items: center;
+}
+#cards{flex-wrap: wrap;}
+#n_f input{
+    width: 70%;
+    margin-right: 10px;
+}
+
+#newUser{
+    position: relative;
+}
+.f{
+    margin: 10px 0px;
+}
+#blockNewUser{
+    display: none;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    background-color: #625B7C;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+
+    box-shadow: 0px 0px 10px 0px black;
+}
+#blockNewUser input{
+    background-color: #4e4e72;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+    padding: 7px 15px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+#edit_photo{
+    width: 225px;
+    /* height: 30px; */
+    border-radius: 100%;
+    z-index: -1;
+
+}
+#sub_user{
+    background-color: #4e4e72;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+    padding: 7px 15px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    margin: auto;
+}
+#sub_user:hover{cursor: pointer;}
+#cards{
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+}
+.card{
+    position: relative;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100px;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 20px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: .5s ease-out all;
+    cursor: pointer;
+    transform: translateY(4px);
+    box-shadow: 0px 0px 7px 0px black;
+}
+.img_card{
+    background-image: url('../img/rrr.jpg');
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #1E1E2E;
+    margin-bottom: 20px;
+}
+.ageText{
+    margin: auto;
+    width: 50px;
+}
+.close{
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: red;
+}
+.close:hover{
+    transform: scale(1.05);
+    transition: .12s ease-out all;
+    cursor: pointer;
+    transform: translateY(4px);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgb(107, 0, 0);
+}
+#warning{color: red;}
+#warning2{
+    font-weight: bold;
+    font-style: 30px;
+}
+#fullCard{
+        opacity: 0;
+        display: none;
+        position: relative;
+        position: absolute;
+        top: 68px;
+        background-color: #625b7c;
+        width: 35%;
+        padding: 20px;
+        height: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px black;
+        margin: 20px;
+    
+}
+#card_header{
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.w{width: fit-content;}
+#full_card_name{font-weight: bold;font-size: 30px;}
+#full_card_age{color: #c0c0c0;}
+#n_a{margin-left: 30px;}
+#p{font-size: 50px;margin: 0px 2px;}
+#card_main{font-size: 20px;font-weight: 500;}
+.td2{padding-left: 30px;}
+.td1{font-weight: bold;}
+td{padding: 5px 0px;}
+#card_header .close{display: block;}
+#full_card_img{width: 90px;}
